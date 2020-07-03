@@ -1,0 +1,74 @@
+@media all and (max-width : 600px){
+/*-- -------------------- Han's - Start -------------------- --*/
+ .header-right{
+  display:none;
+ }
+ 
+ .header-left{
+  width:100%;
+  height:60px;
+  }
+  
+ .logo {
+  display:block;
+  margin-left:135px; 
+  width:60px;
+}
+/*-- -------------------- Han's - End -------------------- --*/
+
+/*-- -------------------- Suga - Start -------------------- --*/
+.top-wrapper{
+  padding-top:5px;
+  margin-bottom:5px;
+}
+  
+.top-wrapper h1{
+  font-size:14px;
+}
+/*-- -------------------- Suga - End -------------------- --*/
+
+/*-- -------------------- Ajie - Start -------------------- --*/
+.category{
+ display:block;
+ margin:auto;
+ height:80%;
+ width:60%;
+ margin-bottom:10px;
+}
+  
+.category h4{
+ font-size:12px;
+}
+
+.category p{
+ font-size:10px;
+}
+/*-- -------------------- Ajie - End -------------------- --*/
+
+/*-- -------------------- Han's - End -------------------- --*/
+.form-input{
+ margin-bottom:0;
+}
+/*-- -------------------- Han's - End -------------------- --*/
+
+/*-- -------------------- Apri - Start -------------------- --*/
+.footer{
+ height:200px;
+ margin-top:0;
+}
+  
+.footer1 p {
+ font-size:9px;
+}
+  
+.container .follow h2 {
+  font-size:11px;
+  margin-bottom:3px;
+}
+   
+.follow img{
+  width:15px;
+}
+/*-- -------------------- Apri - End -------------------- --*/
+}
+/*-- -------------------- Overall APRIYANA Fix It -------------------- --*/

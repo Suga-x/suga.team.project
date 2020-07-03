@@ -1,0 +1,272 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  margin:0;
+}
+body{
+  font-family: Helvetica, "sans serif";
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  opacity:1;
+  }
+
+/*-- -------------------- Suga - Start-------------------- --*/
+.top-wrapper {
+  height:500px;
+  width:100%;
+  background-image: url(img/bg.jpg);
+  text-align: center;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing:5px;
+  margin-bottom: 10px;
+  color:white;
+  margin-top:10px;
+}
+
+.top-wrapper h4 {
+  opacity:0.8;
+  margin-bottom: 1px;
+  color:white;;
+}
+
+.btn-wrap {
+  margin: 20px 0;
+}
+
+.btn-wrap {
+  color:white;
+}
+.btn-wrap p {
+  margin: 10px 0;
+}
+
+.makan {
+  background-color:#E9967A;
+  margin-right: 10px;
+}
+
+.minum {
+  background-color: #FFA500;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.btn:hover {
+  opacity: 1;
+}
+/*-- -------------------- Suga - End-------------------- --*/
+
+/*-- -------------------- Mao - Start-------------------- --*/
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height:65px;
+  width: 100%;
+  background-color: #79bf6b;
+}
+
+.logo {
+  width: 50px;
+  color: white;
+  margin:auto;
+  float:left;
+}
+
+.header-left {
+  float: left;
+  margin-top:10px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-mobile{
+  display: none;
+}
+.heading{
+  padding: 10px 30px;
+  text-align: center;
+}
+/*-- -------------------- Mao - End-------------------- --*/
+
+/*-- -------------------- Han's - Start-------------------- --*/
+.message-wrap {
+  background-color:#79bf6b;
+}
+
+label {
+  text-align:left;
+}
+
+.form-input {
+  margin-bottom:0;
+  padding-bottom:10px;
+  padding-top:30px;
+}
+
+.form-input .input {
+  margin-bottom:10px;
+}
+
+.submit{
+  padding-top:10px;
+}
+
+.form-input{
+  margin: 15px auto;
+}
+
+.form-input label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form-input input{
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px;
+  border: solid 1px #ddd;
+}
+.form-input textarea{
+  border-radius: 8px;
+  border: solid 1px #ddd;
+  width: 100%;
+  min-height: 120px;
+  padding: 8px;
+}
+.btn-input{
+  border: solid 1px #007CFF;
+  border-radius: 8px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.btn-input:hover{
+  border: solid 1px #DDD;
+  color: #fff;
+  background-color: #007CFF; 
+}
+/*-- -------------------- Han's - End -------------------- --*/
+
+/*-- -------------------- Ajie - Start-------------------- --*/
+.category-wrapper{
+  width:100%;
+  background-color:white;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.category-wrapper h1{
+  color:black;
+  Text-align:center;
+  font-size:25px;
+}
+.category h4{
+  color:black;
+  font-size:20px;
+}
+.category p{
+  font-size:14px;
+  text-align:justify;
+  margin-left:10px;
+  margin-right:10px;
+}
+.category{
+  background-color:grey;
+  display:inline-block;
+  height:80%;
+  width:20%;
+  border-radius:10px;
+  padding-bottom:10px;
+  margin-left:70px;
+}
+
+.category img{
+  height:100px;
+  width:150px;
+  margin-top:10px;
+}
+/*-- -------------------- Ajie - End -------------------- --*/
+
+/*-- -------------------- Apri- Start-------------------- --*/
+.footer {
+  background-color:#2F4F4F;
+  width:100%;
+  height:300px;
+  padding-top:1%;
+}
+
+.container .footer1{
+  text-align:center;
+  color:white;
+}
+
+.footer1 p {
+  text-align:center;
+  margin:2% 5%;
+}
+
+.container .follow h2 {
+  text-align:center;
+  color:grey;
+  font-size:25px;
+  margin-bottom:0;
+}
+
+.follow img {
+  width:20px;
+  display:inline-block;
+}
+
+.follow a {
+  text-decoration:none;
+  margin:0 7px;
+  
+}
+
+hr {
+  width:80%;
+  opacity:0.7;
+}
+/*-- -------------------- Ajie - End -------------------- --*/
